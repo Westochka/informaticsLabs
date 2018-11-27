@@ -35,4 +35,4 @@ echo 'Если все пользователи смогут делать эти 
 sudo rm /home/westa/shared.txt
 sudo rm -r /home/westa/direct1
 sudo deluser --remove-all-files chika-veronica 2>/dev/null
-echo 'пользователь chika-veronica '
+echo 'пользователь chika-veronica удален'
