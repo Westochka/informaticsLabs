@@ -1,3 +1,5 @@
 #!/bin/bash 
-a=`expr $1 + $2`
+
+let a=$1+$2
+
 echo $a
