@@ -1,7 +1,7 @@
 #!/bin/bash 
-a=0
+let a=0
 while [ "$a" -lt "$1" ]
 do
-  a=`expr $a + 1`
+  let a=$a+1
   echo "Hello"
 done
